@@ -3,15 +3,17 @@ session_start();
 
 require_once 'Dao.php';
 
-$username = trim($_POST['username']);
-$password = trim($_POST['password']);
+$user_name = trim($_POST['user_name']);
+$user_email = trim($_POST['user_email']);
+
+echo "$username"; //test what was inputted
 
 $dao = new Dao();
-$_SESSION['authenticated'] = $dao->authenticate($username, $password);
+$_SESSION['authenticated'] = $dao->authenticate($user_name, $user_email);
 
 if ($_SESSION['authenticated']) {
-   header('Location: comments.php');
+   header('Location: homePage.php');
 } else {
-   header('Location: login.php');
+   header('Location: LoginPage.php');
 }
 exit;

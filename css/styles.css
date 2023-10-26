@@ -153,6 +153,7 @@ p {
 #footer {
   text-align: center;
   position: relative;
+  background-color: #cccccc;
 }
 
 .social-icon {
