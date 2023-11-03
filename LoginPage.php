@@ -10,22 +10,21 @@
     <body>
         <h1 class="big-title">Hello, welcome to my digital portfolio</h1>
       <hr/>
+      <h2>Login</h1>
+      <?php
+      session_start();
 
-      <div class="row">
-
-        <form method="post" action="login_handler.php">
-          <div class="input-field">
-            <label>Name:</label>
-            <input type="text" name="user_name"><br />
-          </div>
-          <div class="input-field">
-            <label>Email(optional):</label>
-            <input type="email" name="user_email"><br />
-          </div>
-
-          <button type="submit" formaction="homePage.php"> Login </button>
-        </form>
-      </div>
+      if (isset($_SESSION['error'])) {
+        echo '<p style="color: red;">' . $_SESSION['error'] . '</p>';
+        unset($_SESSION['error']);
+      }
+      ?>
+      <form method="post" action="login_handler.php">
+         <div>name: <input type="text" name="name"/></div>
+         <Br/>
+         <div>email: <input type="email" name="email"/></div>
+         <Br/>
+         <div><input type="submit" name="Login"/></div>
 
     </body>
   </html>

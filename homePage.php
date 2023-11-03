@@ -50,7 +50,7 @@
           <a href="#">Gallery</a>
           <a href="#">Contact</a>
           <a href="#">Services</a>
-          <a href="#">Tutorials</a>
+          <a href="logout.php">Logout</a>
         </nav>
       </header>
   </section>
@@ -60,7 +60,11 @@
   <section id="title">
     <div class="container-fluid">
       <div class="row">
-          <h1 class="big-title">My Art</h1>
+        <?php
+        $username = $_SESSION['user'];
+        echo "<h2>Welcome, $username!</h2>";
+        ?>
+        <h1 class="big-heading">My Art</h1>
       </div>
     </div>
   </section>
