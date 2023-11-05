@@ -28,7 +28,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Montserrat|Ubuntu" rel="stylesheet">
 
   <!-- CSS stylesheet -->
-  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/HomeStyles.css">
 
   <!-- Font Awesome -->
   <script src="https://kit.fontawesome.com/8b6ff90ac6.js" crossorigin="anonymous"></script>
@@ -44,7 +44,7 @@
 
   <section id="navigation">
       <header class="header">
-        <a href="#" class="logo">Jozef Wells</a>
+        <a href="#" class="title-header">Jozef Wells</a>
         <nav class="navbar">
           <a href="#title">About</a>
           <a href="#">Gallery</a>
@@ -58,14 +58,12 @@
   <!-- Title -->
 
   <section id="title">
-    <div class="container-fluid">
-      <div class="row">
-        <?php
-        $username = $_SESSION['user'];
-        echo "<h2>Welcome, $username!</h2>";
-        ?>
-        <h1 class="big-heading">My Art</h1>
-      </div>
+    <div class="row">
+      <?php
+      $username = $_SESSION['user'];
+      echo "<h2>Welcome, $username!</h2>";
+      ?>
+      <h1 class="big-title">My Art</h1>
     </div>
   </section>
 
@@ -107,7 +105,7 @@
         </div>
 
         <div class="flex-box">
-          <img class="drawing"src="images/IMG_201.jpg" alt="painting1-img">
+          <img class="drawing"src="images/IMG_201.jpg" alt="einstein-img">
         </div>
 
         <div class="flex-box">
@@ -128,7 +126,6 @@
   <!-- Footer -->
 
   <footer id="footer">
-
     <div class="container-fluid">
       <i class="social-icon fa-brands fa-twitter"></i>
       <i class="social-icon fa-brands fa-facebook-f"></i>
@@ -137,9 +134,9 @@
 
       <p>© Copyright Jozef Wells</p>
     </div>
-
   </footer>
 
 </body>
+
 
 </html>

@@ -1,0 +1,70 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+  background-color: #e5e5e5;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat-Bold';
+}
+
+h2 {
+  margin-top: 0;
+}
+
+hr {
+  width: 8%;
+  border: dotted grey;
+  border-width: 0em 0 6px;
+}
+
+/* title */
+.big-title {
+  padding-top: 10%;
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+
+
+/* Login */
+
+.login-form {
+  background-color: white;
+  height: 350px;
+  width: 400px;
+  align-items: center;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+.login-form p {
+  text-align: left;
+}
+
+.login-form input[type='text'],
+.login-form input[type='email'] {
+  display: block;
+  margin: 10px 0;
+  padding: 10px;
+  width: 95%;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.login-form input[type='submit'] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
