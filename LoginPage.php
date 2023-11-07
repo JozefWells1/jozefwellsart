@@ -8,7 +8,6 @@
     </head>
 
     <body>
-      <div class="login-container"></div>
       <h1 class="big-title">Hello, welcome to my digital portfolio</h1>
       <form class="login-form"method="post" action="login_handler.php">
           <h2>Login</h2>
