@@ -25,17 +25,10 @@
             return false;
           }
 
-<<<<<<< HEAD
           //hash input
-          $salt = generateSalt();
-          $hashedName = hash('sha256', $salt . $name);
-          $hashedEmail = hash('sha256', $salt . $email);
-=======
-          // //hash input
           // $salt = generateSalt();
           // $hashedName = hash('sha256', $salt . $name);
           // $hashedEmail = hash('sha256', $salt . $email);
->>>>>>> 675ecf3 (testing site)
 
           $conn = $this->getConnection();
           $name = strtolower($name);
