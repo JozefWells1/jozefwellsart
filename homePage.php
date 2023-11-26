@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+
 <?php
   session_start();
 
@@ -17,15 +19,13 @@
   //echo "<pre>" . print_r($_SESSION,1) . "</pre>";
 ?>
 
-<html>
-
+<html lang="en">
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="jquery-3.7.1.min.js"></script>
 
   <title>Jozef Wells</title>
-
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat|Ubuntu" rel="stylesheet">
 
   <!-- CSS stylesheet -->
   <link rel="stylesheet" href="css/HomeStyles.css">
@@ -63,7 +63,7 @@
       $username = $_SESSION['user'];
       echo "<h2>Welcome, $username!</h2>";
       ?>
-      <h1 class="big-title">My Art</h1>
+      <h1 class="big-title">Gallery</h1>
     </div>
   </section>
 
@@ -71,55 +71,34 @@
 
   <section id="pictures">
 
-    <div class="flex-container">
-        <div class="flex-box">
-          <img class="drawing"src="images/IMG_22.jpg" alt="logan-img">
-        </div>
+    <div class="container">
 
-        <div class="flex-box">
-          <img class="drawing"src="images/IMAG0203.jpg" alt="girl1-img">
-        </div>
-
-        <div class="flex-box">
-          <img class="drawing"src="images/IMAG0194.jpg" alt="boy1-img">
-        </div>
-
-        <div class="flex-box">
-          <img class="drawing"src="images/IMAG0252.jpg" alt="painting1-img">
-        </div>
-
-        <div class="flex-box">
-          <img id= dog class="drawing"src="images/IMAG0277.jpg" alt="dog-img">
-        </div>
-
-        <div class="flex-box">
-          <img class="drawing"src="images/IMG_14.jpg" alt="joker-img">
-        </div>
-
-        <div class="flex-box">
-          <img class="drawing"src="images/IMG_20.jpg" alt="audreyHepburn-img">
-        </div>
-
-        <div class="flex-box">
-          <img class="drawing"src="images/IMG_0125.jpg" alt="wonderwoman-img">
-        </div>
-
-        <div class="flex-box">
-          <img class="drawing"src="images/IMG_201.jpg" alt="einstein-img">
-        </div>
-
-        <div class="flex-box">
-          <img class="drawing"src="images/IMG_0519.jpg" alt="dog-img">
-        </div>
-
-        <div class="flex-box">
-          <img class="drawing"src="images/IMG_0549.jpg" alt="joker-img">
-        </div>
-
-        <div class="flex-box">
-          <img class="drawing"src="images/IMG_1486.jpg" alt="audreyHepburn-img">
-        </div>
+      <div class="image-container">
+        <div class="drawing"><img src="images/IMG_22.jpg" alt="logan-img"></div>
+        <div class="drawing"><img src="images/IMAG0203.jpg" alt="girl1-img"></div>
+        <div class="drawing"><img src="images/IMAG0194.jpg" alt="boy1-img"></div>
+        <div class="drawing"><img src="images/IMAG0252.jpg" alt="painting1-img"></div>
+        <div class="drawing"><img src="images/IMAG0277.jpg" alt="dog-img"></div>
+        <div class="drawing"><img src="images/IMG_14.jpg" alt="joker-img"></div>
+        <div class="drawing"><img src="images/IMG_20.jpg" alt="audreyHepburn-img"></div>
+        <div class="drawing"><img src="images/IMG_0125.jpg" alt="wonderwoman-img"></div>
+        <div class="drawing"><img src="images/IMG_201.jpg" alt="einstein-img"></div>
+        <div class="drawing"><img src="images/IMG_0519.jpg" alt="murdock-img"></div>
+        <div class="drawing"><img src="images/IMG_0549.jpg" alt="joker-img"></div>
+        <div class="drawing"><img src="images/IMG_1486.jpg" alt="flower-img"></div>
+        <div class="drawing"><img src="images/IMAG0011.jpg" alt="madsmikkelsen-img"></div>
+        <div class="drawing"><img src="images/IMAG0050.jpg" alt="girl3-img"></div>
+        <div class="drawing"><img src="images/IMAG0216.jpg" alt="girl2-img"></div>
+        <div class="drawing"><img src="images/IMG_0542.jpg" alt="kobe-img"></div>
+        <div class="drawing"><img src="images/IMG_20160.jpg" alt="deadpool-img"></div>
+        <div class="drawing"><img src="images/IMG_0553.jpg" alt="guySuit-img"></div>
+        <div class="drawing"><img src="images/IMG_20170.jpg" alt="pennywise-img"></div>
     </div>
+
+    <div class="popup-image">
+      <span>&times;</span>
+      <img src="images/IMG_22.jpg" alt="logan-img">
+  </div>
 
   </section>
 
@@ -135,8 +114,7 @@
       <p>© Copyright Jozef Wells</p>
     </div>
   </footer>
-
+<script src="javascript/script.js"></script>
 </body>
-
 
 </html>

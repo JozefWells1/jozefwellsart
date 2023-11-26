@@ -3,7 +3,7 @@ body {
   text-align: center;
   margin: 0;
   padding: 0;
-  background-color: #a5a58d;
+  background-color: #F0EAD2;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -41,7 +41,7 @@ p {
   left:0;
   width: 100%;
   padding: 20px 50px;
-  background: #91A3B0;
+  background: #718355;
   display: flex;
   justify-content: space-between;
   align-items;
@@ -107,24 +107,96 @@ p {
 /* Drawings Section */
 
 #pictures {
-  background-color: #a5a58d;
+  background-color: #F0EAD2;
   position: relative;
 }
 
-.flex-box {
-  width: 300px;
+.container {
+  position: relative;
+  min-height: 100vh;
+}
+
+.container .image-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+  padding: 10px;
+}
+
+.container .image-container .drawing {
   height: 300px;
-  padding: 25px 0;
+  width: 250px;
+  border: 10px solid #718355;
+  border-radius: 5%;
+  box-shadow: 0 5px 15px rgba(0,0,0,.1);
+  overflow: hidden;
+  cursor: pointer;
 }
 
-.drawing {
-  max-width: 100%;
-  max-height: 100%;
-  border-radius: 10%;
+.container .image-container .drawing:hover img {
+  transform: scale(1.1);
 }
 
-#dog {
-  margin: 15% 0%;
+.container .popup-image {
+  position: fixed;
+  top:0; left:0;
+  background: rgba(0,0,0,.9);
+  height: 100%;
+  width: 100%;
+  z-index: 100;
+}
+
+.container .popup-image span {
+  position: absolute;
+  top: 0; right: 10px;
+  font-size: 60px;
+  font-weight: bolder;
+  color: #fff;
+  cursor: pointer;
+}
+
+.container .image-container .drawing img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  transition: .2s linear;
+}
+
+.container .popup-image {
+  position: fixed;
+  top:0; left:0;
+  background: rgba(0,0,0,.9);
+  height: 100%;
+  width: 100%;
+  z-index: 100;
+  display:none;
+}
+
+.container .popup-image span {
+  position: absolute;
+  top:0; right: 10px;
+  font-size: 60px;
+  font-weight: bolder;
+  color: #fff;
+  cursor: pointer;
+  z-index: 100;
+}
+
+.container .popup-image img {
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+  border: 5px solid #000000;
+  border-radius: 5px;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media (max-width:768px) {
+  .container .popup-image img {
+    width: 95%;
+  }
 }
 
 /* Footer Section */
@@ -134,7 +206,7 @@ p {
   margin-top: 20px;
   text-align: center;
   position: relative;
-  background-color: #a5a58d;
+  background-color: #F0EAD2;
 }
 
 .social-icon {

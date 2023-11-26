@@ -25,6 +25,11 @@
             return false;
           }
 
+          //hash input
+          $salt = generateSalt();
+          $hashedName = hash('sha256', $salt . $name);
+          $hashedEmail = hash('sha256', $salt . $email);
+
           $conn = $this->getConnection();
           $name = strtolower($name);
           $email = strtolower($email);
@@ -54,6 +59,10 @@
               $insertStmt->execute();
               return true; // Authenticate new user
           }
+        }
+
+        public function generateSalt($length = 32) {
+          return bin2hex(openssl_random_pseudo_bytes($length));
         }
 
    } // end Dao
