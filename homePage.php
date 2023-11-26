@@ -46,8 +46,8 @@
       <header class="header">
         <a href="#" class="title-header">Jozef Wells</a>
         <nav class="navbar">
-          <a href="#title">About</a>
-          <a href="#">Gallery</a>
+          <a href="#">About</a>
+          <a href="#" class="active">Gallery</a>
           <a href="#">Contact</a>
           <a href="#">Services</a>
           <a href="logout.php">Logout</a>
@@ -93,6 +93,12 @@
         <div class="drawing"><img src="images/IMG_20160.jpg" alt="deadpool-img"></div>
         <div class="drawing"><img src="images/IMG_0553.jpg" alt="guySuit-img"></div>
         <div class="drawing"><img src="images/IMG_20170.jpg" alt="pennywise-img"></div>
+        <div class="drawing"><img src="images/IMG_200.jpg" alt="pennywise-img"></div>
+        <div class="drawing"><img src="images/IMG1.jpg" alt="marylinMonroe-img"></div>
+        <div class="drawing"><img src="images/IMG2.jpg" alt="phoenixJoker-img"></div>
+        <div class="drawing"><img src="images/IMG123.jpg" alt="jokers-img"></div>
+        <div class="drawing"><img src="images/IMG23.jpg" alt="sketches-img"></div>
+        <div class="drawing"><img src="images/IMAG0048.jpg" alt="comicJoker-img"></div>
     </div>
 
     <div class="popup-image">

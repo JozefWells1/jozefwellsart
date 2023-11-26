@@ -72,6 +72,8 @@ p {
   line-height: 2;
 }
 
+
+
 .navbar a::before {
   content: '';
   position: absolute;
@@ -84,6 +86,10 @@ p {
 }
 
 .navbar a:hover::before {
+  width: 100%;
+}
+
+.navbar .active::before {
   width: 100%;
 }
 
