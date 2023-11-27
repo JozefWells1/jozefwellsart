@@ -83,15 +83,15 @@
         <div class="drawing"><img src="images/IMG_20.jpg" alt="audreyHepburn-img"></div>
         <div class="drawing"><img src="images/IMAG0047.jpg" alt="wonderwoman-img"></div>
         <div class="drawing"><img src="images/IMG_2013.jpg" alt="einstein-img"></div>
-        <div class="drawing"><img src="images/IMG_0519.jpg" alt="murdock-img"></div>
+<!--         <div class="drawing"><img src="images/IMG_0519.jpg" alt="murdock-img"></div> -->
         <div class="drawing"><img src="images/IMG_201.jpg" alt="bikePainting-img"></div>
         <div class="drawing"><img src="images/IMG_1486.jpg" alt="flower-img"></div>
         <div class="drawing"><img src="images/IMAG0011.jpg" alt="madsmikkelsen-img"></div>
         <div class="drawing"><img src="images/IMAG0050.jpg" alt="girl3-img"></div>
         <div class="drawing"><img src="images/IMAG0216.jpg" alt="girl2-img"></div>
-        <div class="drawing"><img src="images/IMG_0542.jpg" alt="kobe-img"></div>
+<!--         <div class="drawing"><img src="images/IMG_0542.jpg" alt="kobe-img"></div> -->
         <div class="drawing"><img src="images/IMG_20160.jpg" alt="deadpool-img"></div>
-        <div class="drawing"><img src="images/IMG_0553.jpg" alt="guySuit-img"></div>
+<!--         <div class="drawing"><img src="images/IMG_0553.jpg" alt="guySuit-img"></div> -->
         <div class="drawing"><img src="images/IMG_20170.jpg" alt="pennywise-img"></div>
         <div class="drawing"><img src="images/IMG_200.jpg" alt="girlSmoking-img"></div>
         <div class="drawing"><img src="images/IMG1.jpg" alt="marylinMonroe-img"></div>
