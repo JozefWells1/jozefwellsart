@@ -44,7 +44,8 @@
 
   <section id="navigation">
       <header class="header">
-        <a href="#" class="title-header">Jozef Wells</a>
+        <!-- <a href="#" class="title-header">Jozef Wells</a> -->
+        <img class="logo" src="images/logo.png" alt="logo">
         <nav class="navbar">
           <a href="#">About</a>
           <a href="#" class="active">Gallery</a>

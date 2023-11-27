@@ -40,19 +40,24 @@ p {
   top:0;
   left:0;
   width: 100%;
-  padding: 20px 50px;
+  padding: 5px 50px;
   background: #718355;
   display: flex;
   justify-content: space-between;
   z-index: 100;
 }
 
-.title-header {
+/* .title-header {
   font-size: 32px;
   color: #fff;
   text-decoration: none;
   font-weight: 700;
   margin: 0;
+} */
+
+.logo {
+  width: 350px;
+  height: 95.65px;
 }
 
 .navbar {
@@ -68,7 +73,7 @@ p {
   font-weight: 500;
   text-decoration: none;
   margin: 20px 10px;
-  line-height: 2;
+  line-height: 5;
 }
 
 
@@ -113,7 +118,7 @@ p {
 }
 
 #title h2 {
-  padding-top: 30px;
+  padding-top: 55px;
   color: #718355;
 }
 
