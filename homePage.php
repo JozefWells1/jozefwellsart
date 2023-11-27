@@ -56,7 +56,8 @@
   </section>
 
   <!-- Title -->
-
+<div class="background-container">
+  <img class="background" src="images/background.jpg" alt="background">
   <section id="title">
     <div class="row">
       <?php
@@ -69,7 +70,6 @@
 
   <!-- Pictures -->
 
-  <section id="pictures">
 
     <div class="container">
 
@@ -81,10 +81,10 @@
         <div class="drawing"><img src="images/IMAG0277.jpg" alt="dog-img"></div>
         <div class="drawing"><img src="images/IMG_14.jpg" alt="joker-img"></div>
         <div class="drawing"><img src="images/IMG_20.jpg" alt="audreyHepburn-img"></div>
-        <div class="drawing"><img src="images/IMG_0125.jpg" alt="wonderwoman-img"></div>
-        <div class="drawing"><img src="images/IMG_201.jpg" alt="einstein-img"></div>
+        <div class="drawing"><img src="images/IMAG0047.jpg" alt="wonderwoman-img"></div>
+        <div class="drawing"><img src="images/IMG_2013.jpg" alt="einstein-img"></div>
         <div class="drawing"><img src="images/IMG_0519.jpg" alt="murdock-img"></div>
-        <div class="drawing"><img src="images/IMG_0549.jpg" alt="joker-img"></div>
+        <div class="drawing"><img src="images/IMG_201.jpg" alt="bikePainting-img"></div>
         <div class="drawing"><img src="images/IMG_1486.jpg" alt="flower-img"></div>
         <div class="drawing"><img src="images/IMAG0011.jpg" alt="madsmikkelsen-img"></div>
         <div class="drawing"><img src="images/IMAG0050.jpg" alt="girl3-img"></div>
@@ -93,12 +93,14 @@
         <div class="drawing"><img src="images/IMG_20160.jpg" alt="deadpool-img"></div>
         <div class="drawing"><img src="images/IMG_0553.jpg" alt="guySuit-img"></div>
         <div class="drawing"><img src="images/IMG_20170.jpg" alt="pennywise-img"></div>
-        <div class="drawing"><img src="images/IMG_200.jpg" alt="pennywise-img"></div>
+        <div class="drawing"><img src="images/IMG_200.jpg" alt="girlSmoking-img"></div>
         <div class="drawing"><img src="images/IMG1.jpg" alt="marylinMonroe-img"></div>
         <div class="drawing"><img src="images/IMG2.jpg" alt="phoenixJoker-img"></div>
         <div class="drawing"><img src="images/IMG123.jpg" alt="jokers-img"></div>
         <div class="drawing"><img src="images/IMG23.jpg" alt="sketches-img"></div>
         <div class="drawing"><img src="images/IMAG0048.jpg" alt="comicJoker-img"></div>
+        <div class="drawing"><img src="images/IMAG0046.jpg" alt="woman1-img"></div>
+        <div class="drawing"><img src="images/IMAG012.jpg" alt="waterDrop-img"></div>
     </div>
 
     <div class="popup-image">
@@ -107,6 +109,7 @@
   </div>
 
   </section>
+</div>
 
   <!-- Footer -->
 

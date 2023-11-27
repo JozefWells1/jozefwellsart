@@ -17,7 +17,7 @@ hr {
 }
 
 p {
-  color: #8f8f8f;
+  color: black;
 }
 
 
@@ -80,7 +80,7 @@ p {
   left: 0;
   width: 0;
   height: 2px;
-  background: #fff;
+  background: #F0EAD2;
   transition: .3s;
 }
 
@@ -93,6 +93,14 @@ p {
 }
 
 /* Title Section */
+.background {
+  position: fixed;
+  display: block;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+}
+
 .row {
   margin: 50px 0;
   width: 100%;
@@ -106,13 +114,14 @@ p {
 
 #title h2 {
   padding-top: 30px;
+  color: #718355;
 }
 
 
 /* Drawings Section */
 
 #pictures {
-  background-color: #F0EAD2;
+  /* background-color: #F0EAD2; */
   position: relative;
 }
 
@@ -127,13 +136,14 @@ p {
   gap: 15px;
   justify-content: center;
   padding: 10px;
+  z-index: 5
 }
 
 .container .image-container .drawing {
   height: 300px;
   width: 250px;
-  border: 10px solid #718355;
-  border-radius: 5%;
+  border: 8px solid #718355;
+  border-radius: 7%;
   box-shadow: 0 5px 15px rgba(0,0,0,.1);
   overflow: hidden;
   cursor: pointer;
@@ -192,9 +202,8 @@ p {
   position: absolute;
   top: 50%; left: 50%;
   transform: translate(-50%, -50%);
-  border: 5px solid #000000;
-  border-radius: 5px;
-  height: 100%;
+  border-radius: 10px;
+  max-height: 90%;
   object-fit: cover;
 }
 
@@ -211,7 +220,6 @@ p {
   margin-top: 20px;
   text-align: center;
   position: relative;
-  background-color: #F0EAD2;
 }
 
 .social-icon {
