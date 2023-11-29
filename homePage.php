@@ -33,6 +33,12 @@
   <!-- Font Awesome -->
   <script src="https://kit.fontawesome.com/8b6ff90ac6.js" crossorigin="anonymous"></script>
 
+  <!-- Google fonts -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Permanent+Marker">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Zeyada">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Righteous">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Leckerli+One">
+
   <!-- Logo -->
   <link rel="icon" href="favicon.ico">
 
@@ -47,10 +53,8 @@
         <!-- <a href="#" class="title-header">Jozef Wells</a> -->
         <img class="logo" src="images/logo.png" alt="logo">
         <nav class="navbar">
-          <a href="#">About</a>
+          <a href="about.php">About</a>
           <a href="#" class="active">Gallery</a>
-          <a href="#">Contact</a>
-          <a href="#">Services</a>
           <a href="logout.php">Logout</a>
         </nav>
       </header>
@@ -65,13 +69,13 @@
       $username = $_SESSION['user'];
       echo "<h2>Welcome, $username!</h2>";
       ?>
-      <h1 class="big-title">Gallery</h1>
+      <h1 class="big-title"><u>Gallery</u></h1>
     </div>
   </section>
 
   <!-- Pictures -->
 
-
+  <section id="pictures">
     <div class="container">
 
       <div class="image-container">
@@ -107,7 +111,7 @@
     <div class="popup-image">
       <span>&times;</span>
       <img src="images/IMG_22.jpg" alt="logan-img">
-  </div>
+    </div>
 
   </section>
 </div>
@@ -116,10 +120,10 @@
 
   <footer id="footer">
     <div class="container-fluid">
-      <i class="social-icon fa-brands fa-twitter"></i>
-      <i class="social-icon fa-brands fa-facebook-f"></i>
-      <i class="social-icon fa-brands fa-instagram"></i>
-      <i class="social-icon fa-solid fa-envelope"></i>
+      <a class="social-icon fa-brands fa-twitter" href="https://twitter.com/" target="_blank"></a>
+      <a class="social-icon fa-brands fa-facebook-f" href="https://facebook.com/" target="_blank"></a>
+      <a class="social-icon fa-brands fa-instagram" href="https://instagram.com/" target="_blank"></a>
+      <a class="social-icon fa-solid fa-envelope" href="mailto:" target="_blank"></a>
 
       <p>© Copyright Jozef Wells</p>
     </div>

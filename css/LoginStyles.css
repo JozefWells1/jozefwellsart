@@ -36,6 +36,12 @@ hr {
   padding: 20px;
 }
 
+.error {
+  color: red;
+  opacity: 1; /* Start with full opacity */
+  animation: fadeOut 2s ease 10s forwards; /* 3 seconds duration */
+}
+
 .login-form {
   background-color: white;
   height: 310px;
@@ -80,4 +86,9 @@ label {
     width: 100%;
     display: inline-block;
     text-align: left;
+}
+
+@keyframes fadeOut {
+    0% { opacity: 1; }
+    100% { opacity: 0; } /* Fade to transparent */
 }

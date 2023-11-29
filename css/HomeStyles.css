@@ -1,5 +1,5 @@
 body {
-  font-family: "Montserrat";
+  font-family: "Permanent Marker";
   text-align: center;
   margin: 0;
   padding: 0;
@@ -7,7 +7,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Montserrat-Bold';
+  font-family: 'Leckerli One';
 }
 
 hr {
@@ -16,8 +16,13 @@ hr {
   border-width: 0em 0 6px;
 }
 
+a {
+  font-family: 'Permanent Marker';
+}
+
 p {
   color: black;
+  font-family: 'Permanent Marker';
 }
 
 
@@ -67,7 +72,6 @@ p {
 
 .navbar a {
   position: relative;
-  font-family: "Poppins", sans-serif;
   font-size: 18px;
   color: #fff;
   font-weight: 500;
@@ -115,6 +119,7 @@ p {
 .big-title {
   font-size: 3.5rem;
   font-weight: bold;
+  color: #185117;
 }
 
 #title h2 {
@@ -122,6 +127,10 @@ p {
   color: #718355;
 }
 
+/* About me */
+.about-me {
+  padding-bottom: 10%;
+}
 
 /* Drawings Section */
 
@@ -154,33 +163,15 @@ p {
   cursor: pointer;
 }
 
-.container .image-container .drawing:hover img {
-  transform: scale(1.1);
-}
-
-.container .popup-image {
-  position: fixed;
-  top:0; left:0;
-  background: rgba(0,0,0,.9);
-  height: 100%;
-  width: 100%;
-  z-index: 100;
-}
-
-.container .popup-image span {
-  position: absolute;
-  top: 0; right: 10px;
-  font-size: 60px;
-  font-weight: bolder;
-  color: #fff;
-  cursor: pointer;
-}
-
 .container .image-container .drawing img {
   height: 100%;
   width: 100%;
   object-fit: cover;
   transition: .2s linear;
+}
+
+.container .image-container .drawing:hover img {
+  transform: scale(1.1);
 }
 
 .container .popup-image {
@@ -196,6 +187,7 @@ p {
 .container .popup-image span {
   position: absolute;
   top:0; right: 10px;
+  font-family: 'Times New Roman';
   font-size: 60px;
   font-weight: bolder;
   color: #fff;
@@ -229,4 +221,7 @@ p {
 
 .social-icon {
   margin: 20px 10px;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
 }
