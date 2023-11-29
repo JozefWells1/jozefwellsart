@@ -65,10 +65,7 @@
   <img class="background" src="images/background.jpg" alt="background">
   <section id="title">
     <div class="row">
-      <?php
-      $username = $_SESSION['user'];
-      echo "<h2>Welcome, $username!</h2>";
-      ?>
+      <h2></h2>
       <h1 class="big-title"><u>About</u></h1>
     </div>
   </section>
