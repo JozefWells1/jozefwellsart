@@ -1,24 +1,5 @@
 <!DOCTYPE html>
 
-<?php
-  session_start();
-
-  if(!isset($_SESSION['authenticated'])) {
-    header('Location: LoginPage.php');
-    exit;
-  }
-
-  if(isset($_SESSION['authenticated']) && !$_SESSION['authenticated']) {
-    header('Location: LoginPage.php');
-    exit;
-  }
-
-  require_once 'Dao.php';
-  $dao = new Dao();
-
-  //echo "<pre>" . print_r($_SESSION,1) . "</pre>";
-?>
-
 <html lang="en">
 <head>
   <meta charset="utf-8">
